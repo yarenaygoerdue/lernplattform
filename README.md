@@ -23,11 +23,11 @@ Alle Tabellen sind relational verknüpft über **Primär- und Fremdschlüssel** 
 
 Einige der enthaltenen SQL-Abfragen zur Demonstration:
 
-- ✅ Alle Kurse mit Namen der Dozenten
-- ✅ Alle Bewertungen inkl. Kursname und Kommentar
-- ✅ Durchschnittliche Bewertung pro Kurs
-- ✅ Anzahl gebuchter Kurse pro Nutzer
-- ✅ Kurse eines bestimmten Users
+- Alle Kurse mit Namen der Dozenten
+- Alle Bewertungen inkl. Kursname und Kommentar
+- Durchschnittliche Bewertung pro Kurs
+- Anzahl gebuchter Kurse pro Nutzer
+- Kurse eines bestimmten Users
 
 Diese Abfragen beinhalten grundlegende **`JOIN`-Konstrukte**, **Aggregation (`GROUP BY`)**, sowie einfache **Filter**.
 
@@ -45,10 +45,10 @@ Diese Abfragen beinhalten grundlegende **`JOIN`-Konstrukte**, **Aggregation (`GR
 
 Dieses Projekt bildet eine solide Grundlage für relationale Modellierung, lässt sich aber weiterentwickeln durch:
 
-- 📦 **Daten-INSERTs** zur besseren Testbarkeit
-- 🔐 **Verstärkte Constraints** (z. B. `NOT NULL`, `UNIQUE`, `DEFAULT`)
-- 🔄 **TRIGGER oder STORED PROCEDURES** zur Automatisierung
-- 📊 **Mehrdimensionale Abfragen** (z. B. mit `NOT EXISTS`, Subqueries, Window Functions)
+- **Daten-INSERTs** zur besseren Testbarkeit
+- **Verstärkte Constraints** (z. B. `NOT NULL`, `UNIQUE`, `DEFAULT`)
+- **TRIGGER oder STORED PROCEDURES** zur Automatisierung
+- **Mehrdimensionale Abfragen** (z. B. mit `NOT EXISTS`, Subqueries, Window Functions)
 
 Diese Punkte sind bewusst offen gehalten, um im weiteren Lernverlauf oder bei Bewerbungsprojekten gezielt erweitert werden zu können.
 
